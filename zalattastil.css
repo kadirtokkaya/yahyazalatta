@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background-image:url(resim/bg.jpg);}
+
+#sayfa{ 
+	width:1000px;
+	background-color:#FFF;
+	margin:auto;
+	border-radius:5px;
+	box-sizing:border-box;
+	box-shadow:5px;}
+	
+#logo{ float:left;}
+	
+#menu{ background-image:url(resim/bgMenu.png);
+	width:790px;
+	height:40px;
+	float:left;
+	margin-top:54px;}
+		
+		.sil{clear:both;}
+				
+#menu ul{ list-style-type:none;
+	margin:0;
+	padding:0;}
+	
+#menu ul li{ width:100px;
+	float:left;}	
+
+#menu ul li a{ text-decoration:none;
+	display:block;
+	font-size:14px;
+	color:#000;
+	font-weight:bold;
+	text-align:center;
+	line-height:40px;
+	margin-left:60px;}
+	
+#menu ul li a:hover{ color:#F00;}
+
+#icerik{ width:980px;
+	height:auto;
+	margin:auto;}
+	
+#banner{box-shadow:5px;}
+#ayrac{ margin-bottom:10px;}
+.bir{ width:270px;
+	height:200px;
+	float:left;
+	border-radius:5px;
+	border:2px solid #666;
+	margin-left:20px;
+	padding-left:10px;}	
+	
+.iki{ width:300px;
+	height:200px;
+	float:left;
+	border-radius:5px;
+	border:2px solid #666;
+	margin-left:20px;}
+	
+.uc{ width:340px;
+	height:200px;
+	float:left;
+	border-radius:5px;
+	border:2px solid #666;
+	margin-left:20px;}		
+	
+			.sil{clear:both;}
+			
+footer{ width:1000px;
+height:50px;
+line-height:50px;
+text-align:center;
+margin-top:10px;
+color:#000;}
+
